@@ -20,14 +20,14 @@
 
 - NOTE : mình hướng dẫn cả những ae không quen dùng burp nên hơi chậm nha
 - ấn clear bên ở bên phải -> bôi đen chỗ bash64 mà mình cần brute force vào -> ấn add
-- chuyển qua tab payload , này mới quan trọng nè 
+- chuyển qua tab payload 
 - để brute force thì ae phải có wordlist ( lên mạng search basic wordlist admin tải về )
 - giờ code tí để đúng format kia nhé : 
 
 ![Alt text](<../image/5.4.png>)
 
 - mình dùng python code thêm admin: trước mỗi password và encode base64
-- xong , anh em ấn load ở payload option rồi chọn file password vừa tải 
+- xong , anh em ấn load ở payload option rồi chọn file password vừa sửa  
 - tiếp đến kéo xuống bỏ cái tích ở payload encoding 
 
 ![Alt text](<../image/5.5.png>)
