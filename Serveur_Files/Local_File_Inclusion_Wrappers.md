@@ -37,23 +37,8 @@
 - bọn này nó cấm không chừa thằng nào 
 - nhưng trong PHP còn 1 cách list all file nữa = code : 
 
-<pre>
-
-<?php
-
-$path = './';
-
-$files = scandir($path);
-
-foreach($files as $file) {
-
-echo "<a href='$file'>$file</a>";
-
-}
-
-?>
-
-</pre>;
+- <?php $path = './';  $files = scandir($path);  foreach($files as $file) {
+-    echo "<a href='$file'>$file</a>";}?>
 
 - giờ thấy thằng file chứa flag roi 
 
