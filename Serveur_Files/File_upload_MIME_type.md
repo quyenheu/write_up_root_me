@@ -25,11 +25,11 @@
 ![Alt text](<../image/15.4.png>)
 
 - pem , win 
-- phần khai thác flag mình có làm chi tiết ae đọc bài file_upload_Double_extensions nhé 
+- phần khai thác flag mình có làm chi tiết ae đọc bài file_upload_Double_extensions nhé , thanks
 
 - giải thích chút NOTE1 : 
-+ nhưng mình chợt nhận ra quên cho GIF89a ; vào nhưng vẫn lưu được ok.php ( ủa vậy MIME type gì ở đây ) 
-+ mình thử đổi content-type thì lúc này đúng là không up được -> tiêu đề nên để là content type mới đúng ( hoặc là rễ-tôi đang fake ae mình :> )
++ mình chợt nhận ra quên cho GIF89a ; vào nhưng vẫn lưu được ok.php ( ủa vậy MIME type gì ở đây ) 
++ thử đổi content-type thì lúc này đúng là không up được -> tiêu đề nên để là content type mới đúng ( hoặc là rễ-tôi đang fake ae mình :> )
 
 #hackerga2101: 
 - MIME-type và content-type là hai trường rất hay trong challenges file upload 
