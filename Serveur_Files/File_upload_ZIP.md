@@ -24,7 +24,7 @@
 
 - mình cũng up luôn file zip cho ae nghiên cứu này
 
-![Alt text](<../image/oka.zip>)
+![Alt text](<../image/oka.zip>) nếu lỗi form ae qua image tìm oka.zip nhé 
 
 #hackerone2101:
 - ae nên tìm hiểu về symlink nhé , tự học là kỹ năng cần có của hacker lỏ mà :> 
