@@ -16,14 +16,14 @@
 - test thêm chút nữa mình thấy rằng trường para page khi thêm một số ký tự sẽ bị ban ví dụ . / % v.v 
 - còn thằng para id thì không ảnh hưởng nhiều 
 
-ta thử encode xem có được không 
+- ta thử encode xem có được không 
 
 ![Alt text](<../image/20.4.png>)
 
 - no , nếu không path traversal được ta thử làm wrappers xem 
 - test tiếp thì nó ban không chừa thằng nào :> thật ra là còn thằng zip 
 - nhưng upload này không cho zip lên ? vậy thì xử lý kiểu gì 
-- ae nghĩ sẽ ra sao nếu ta có 1 file zip chưa file php và đổi tên nó thành jpg upload lên :> ảo ma vch 
+- ae nghĩ , sẽ ra sao nếu ta có 1 file zip chứa file php và đổi tên nó thành jpg upload lên :> ảo ma vch 
 - test thử nhé 
 
 - NOTE : tên của cái zip mình tải lên là trường para id đằng sau 
