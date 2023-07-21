@@ -7,11 +7,11 @@
 
 ![Alt text](<../image/14.1.png>)
 
-- thử up file ảnh lên ( thường mình luôn có sẵn 1 file ảnh nội dung <?php phpinfo(); ?> ) - ae tạo 1 file txt rồi đổi đuôi thành jpg là được 
+- thử up file ảnh lên ( thường mình luôn có sẵn 1 file ảnh nội dung phpinfo() ) - ae tạo 1 file txt rồi đổi đuôi thành jpg là được 
 
 ![Alt text](<../image/14.2.png>)
 
-- tại sao là phpinfo() -> để check xem có thực thi được code như ý mình không - đừng hầm hố quá system() là firewall nó ban cho vỡ alo ấy :> 
+- tại sao là phpinfo() -> để check xem có thực thi được code như ý mình không - đừng hầm hố quá system() là firewall nó đấm cho vỡ alo ấy :> 
 - ae bật burpsuite mode lên nhe 
 - lúc này mình đổi thử đuôi file như tiêu đề để bypass 
 
@@ -27,7 +27,7 @@
 
 ![Alt text](<../image/14.5.png>)
 
-- đoạn khai thác mình để ae làm cho quen tay , hint : ae thay nội dung ảnh thành <?php system($_GET['tmp']);?> -> vào chỗ lưu ảnh -> thêm ? tmp=cat /.passwd vào url  
+- đoạn khai thác mình để ae làm cho quen tay , hint : ae thay nội dung ảnh thành system($_GET['tmp']) -> vào chỗ lưu ảnh -> thêm ? tmp=cat /.passwd vào url  
 - NOTE : ae nên hiểu trước khi dùng nhé 
 
 - bài này mình không đoán được cách họ code và thấy hơi xàm ( mình thiếu kiến thức nên thấy thế nhé , mong ae góp ý thêm thanks)
