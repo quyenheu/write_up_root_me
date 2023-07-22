@@ -41,7 +41,7 @@
 
 - nhận được form serialize , lên mạng search bảng so sánh yếu của php mình biết rằng : string == boolean 
 - và login ở đây phải là 'superamdin' nhé 
-- sửa lại form serialize : a:2:{s:5:"login";s:10:"superadmin";s:8:"password";b:1;} decode url trước khi pem 
+- sửa lại form serialize : a:2:{s:5:"login";s:10:"superadmin";s:8:"password";b:1;} decode url trước khi pem ( ae hay quên chỉnh số ký tự lắm :v để ý chút superadmin là 10 ký tự khác với guest )
 
 ![Alt text](<../image/24.8.png>)
 
