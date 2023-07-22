@@ -1,4 +1,4 @@
-- tiêu đề : PHP - Serialization = 1 lỗi advanced nhé
+- tiêu đề : PHP - Serialization = 1 lỗi advanced
 - nội dung : login với quyền admin
 
 - NOTE : nếu ae chưa hiểu về serialization thì nên học trước chứ xem cũng khó lòng hiểu được 
@@ -15,7 +15,7 @@
 ![Alt text](<../image/24.2.png>)
 
 - mở burp mode lên th 
-- ae thử login với tài khoản demo guest:guest để xem bên trong có gì nhé 
+- ae thử login với tài khoản demo guest:guest để xem bên trong có gì không
 
 ![Alt text](<../image/24.3.png>)
 
@@ -41,7 +41,7 @@
 
 - nhận được form serialize , lên mạng search bảng so sánh yếu của php mình biết rằng : string == boolean 
 - và login ở đây phải là 'superamdin' nhé 
-- sửa lại form serialize : a:2:{s:5:"login";s:10:"superadmin";s:8:"password";b:1;} decode url trước khi pem nhé 
+- sửa lại form serialize : a:2:{s:5:"login";s:10:"superadmin";s:8:"password";b:1;} decode url trước khi pem 
 
 ![Alt text](<../image/24.8.png>)
 
