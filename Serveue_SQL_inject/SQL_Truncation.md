@@ -1,5 +1,5 @@
 - tiêu đề : SQL Truncation = xẻo bỏ 
-- nội dung : được access vào admin yone yasuo
+- nội dung : được access vào admin zone yasuo
 
 - loại lỗi truncation này = kiểu cắt bỏ nếu thừa :v 
 - cứ view web tí đã thì có 2 mục là register và administration 
