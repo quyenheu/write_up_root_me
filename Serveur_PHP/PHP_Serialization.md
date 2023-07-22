@@ -45,12 +45,12 @@
 
 ![Alt text](<../image/24.8.png>)
 
-- ae thêm serialize đã chuẩn bị vào Cookie: autologin=.. như hình 
+- ae thêm serialize đã chuẩn bị vào Cookie: autologin=.. như hình và encode url
 - lưu ý là phải để trường password hoặc login trống nhé vì để kích hoạt được lệnh else if ( unserialize ) 
 - pem và lụm cờ thoi 
 
 #hackerga2101:
-- serialization login zl hay và cuốn lúc giải nhưng vì là lỗi advanced nên đòi hỏi ae phải chắc kiến thức xíu 
+- serialization logic zl hay và cuốn lúc giải nhưng vì là lỗi advanced nên đòi hỏi ae phải chắc kiến thức xíu 
 - là hacker gà nên thực tế mình cũng chưa khai thác được lỗi này bao giờ :v toàn ctf thôi 
 - không source đố m serialize ( ca dao tục ngữ :v ) - mà chỉ đúng với mình là hacker gà th nhé hehe
 
