@@ -1,4 +1,4 @@
-# write_up_root_me
+# write-up-root-me
 
 #Yoo what's up ae , welcome to ROOT-ME WU
 
